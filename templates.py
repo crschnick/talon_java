@@ -9,12 +9,12 @@ mod.list("live_template", desc="A valid IntelliJ live template.")
 
 ctx = Context()
 ctx.lists["self.postfix_template"] = get_list_from_csv(
-    "postfix_templates.csv",
+    __file__ + "/../postfix_templates.csv",
     headers=("shortcut", "name"),
     default={}
 )
 ctx.lists["self.live_template"] = get_list_from_csv(
-    "live_templates.csv",
+    __file__ + "/../live_templates.csv",
     headers=("shortcut", "name"),
     default={}
 )

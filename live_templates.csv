@@ -1,0 +1,13 @@
+shortcut,name
+sout,print
+geti,get instance
+ifn,if null
+inn,if not null
+itar,iterate array
+lazy,lazy
+lst,array last
+thr,throw new
+inlinelambda,inline lambda
+bodylambda,body lambda
+
+

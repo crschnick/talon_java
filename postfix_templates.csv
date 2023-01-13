@@ -1,0 +1,19 @@
+shortcut,name
+!,not
+arg,argument
+assert,assert
+cast,cast
+castvar,cast to variable
+else,else
+for,for each
+fori,for
+format,format
+if,if
+instanceof,instance of
+sout,print
+null,check null
+notnull,check not null
+try,try
+twr,try with
+throw,throw
+
