@@ -73,11 +73,11 @@ class <user.text> dot <user.prose>:
   key(space)
   user.insert_formatted(prose, "camel")
 
-(del | declare) variable <user.text>$:
+(del | declare) (able | variable) <user.text>$:
   user.insert_with_history("var ")
   user.insert_formatted(text, "camel")
 
-(del | declare) variable <user.text> with:
+(del | declare) (able | variable) <user.text> with:
   user.insert_with_history("var ")
   user.insert_formatted(text, "camel")
   insert(" = ")

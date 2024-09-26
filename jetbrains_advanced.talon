@@ -8,10 +8,6 @@ template {user.live_template}:
 (wrap | rap) {user.postfix_template}:
     user.wrap_postfix_template(postfix_template)
 
-
-choose <number_small>:
-    user.choose_option(number_small)
-
 project overview:
     key(alt-home)
     key(home)
