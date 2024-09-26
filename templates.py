@@ -1,6 +1,6 @@
 from talon import Module, actions, Context
 
-from user.knausj_talon.core.user_settings import get_list_from_csv
+from user.talon_community.core.user_settings import get_list_from_csv
 
 
 mod = Module()

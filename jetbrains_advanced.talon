@@ -1,6 +1,5 @@
 app: jetbrains
 -
-tag(): user.java
 
 template {user.live_template}:
     user.insert_live_template(live_template)

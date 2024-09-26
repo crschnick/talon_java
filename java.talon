@@ -1,4 +1,4 @@
-tag: user.java
+code.language: java
 -
 (call | funk | function) <user.prose>$:
     user.insert_formatted(prose, "camel")
